@@ -2,7 +2,7 @@
 title: Advanced RAG System
 emoji: 🔍
 colorFrom: purple
-colorTo: teal
+colorTo: blue
 sdk: docker
 app_file: frontend/app_hf.py
 pinned: false
