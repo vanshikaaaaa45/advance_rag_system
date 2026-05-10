@@ -1,0 +1,24 @@
+# Secrets — NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Vector store — can be large, regenerate from source docs
+chroma_db/
+
+# Logs
+logs/
+*.log
+
+# Data files (optional — comment out if you want to commit sample data)
+# data/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

@@ -1,0 +1,41 @@
+# ── LLM & Orchestration ──────────────────────────────────────────
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-groq==0.1.9
+langgraph==0.2.28
+
+# ── Embeddings & Vector Store ────────────────────────────────────
+sentence-transformers==3.1.1
+chromadb==0.5.11
+
+# ── Sparse Retrieval ─────────────────────────────────────────────
+rank-bm25==0.2.2
+
+# ── Reranking ────────────────────────────────────────────────────
+# cross-encoder is part of sentence-transformers — no extra install needed
+
+# ── Document Loaders ─────────────────────────────────────────────
+pypdf==4.3.1
+beautifulsoup4==4.12.3
+requests==2.32.3
+youtube-transcript-api==0.6.2
+
+# ── Evaluation ───────────────────────────────────────────────────
+ragas==0.1.21
+datasets==3.0.1
+
+# ── API & Server ─────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.12
+pydantic==2.9.2
+
+# ── Frontend ─────────────────────────────────────────────────────
+streamlit==1.38.0
+
+# ── Observability ────────────────────────────────────────────────
+langsmith==0.1.129
+
+# ── Utilities ────────────────────────────────────────────────────
+python-dotenv==1.0.1
+loguru==0.7.2
