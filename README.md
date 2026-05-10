@@ -12,7 +12,7 @@ short_description: Production RAG — hybrid retrieval, agents, observability
 
 A production-grade Retrieval-Augmented Generation pipeline with hybrid retrieval, agentic query routing, self-correcting loops, and a real-time observability dashboard. Built entirely with free, local tools — no paid APIs required beyond Groq's free tier.
 
-**Live demo:** [your-hf-spaces-link-here]
+**Live demo:** [https://huggingface.co/spaces/Vanshikkaaaaaa/advanced_rag]
 
 ---
 
